@@ -1,0 +1,120 @@
+html {
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #000 url('images/background2.png') top center no-repeat fixed;
+  padding: 2em;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'UnifrakturCook', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+div.details {
+  font-size: 1.5em;
+}
+
+img.logo {
+  width: 100%;
+  margin: 2em auto;
+  display: block;
+}
+
+img.flyer {
+  display: block;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.toolbar-link {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  background: #377f46;
+  color: white;
+}
+
+.toolbar-link:hover {
+  background-color: #1f6e41;
+}
+
+p span {
+  font-weight: bold;
+}
+
+a.venue-link {
+  color: #fff;
+}
+
+.lineup {
+  display: flex;
+  max-width: 75%;
+  margin: 3em auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.band-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  flex: 0 1 auto;
+  width: 100%;
+  height: 5em;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+.band-link:hover {
+  color: #377f46;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    padding-bottom: 100px;
+  }
+
+  img.logo {
+    width: 30%;
+  }
+
+  img.flyer {
+    width: auto;
+    max-width: 40%;
+  }
+
+  .toolbar-link {
+    font-size: inherit;
+  }
+
+  .band-link {
+    font-size: 1.5em;
+    width: 20%;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
